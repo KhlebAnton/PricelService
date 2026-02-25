@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_content">
+                <div class="header_content__top">
+                    <a href="#" class="logo">ПрицелСервис</a>
+                    <div class="header_action__container">
+                        <a href="tel:+79999999999" class="link-item header_tel">
+                            <span>+7 999 999-99-99</span>
+                        </a>
+                        <button class="btn btn_primary" data-modal-btn="form">Оставить заявку</button>
+                        <button type="button" class="menu_btn" aria-label="Меню"></button>
+                    </div>
+                </div>
+                <div class="header__nav__overlay">
+                    <nav class="header__nav">
+                        <a href="#" class="link-item">Каталог устройств</a>
+                        <a href="#" class="link-item">Главная</a>
+                        <a href="#" class="link-item">О сервисном центре</a>
+                        <a href="#" class="link-item">Гарантии</a>
+                        <a href="#" class="link-item">Контакты</a>
+                        <a href="#" class="link-item">Услуги</a>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section_blog">
+            <div class="container">
+                <div class="blog_content">
+                    <div class="blog__left">
+                        <h1 class="section_title_h2">
+                            О ремонте продукции <span class="color_accent">Xiaomi</span>
+                        </h1>
+                        <div class="blog_text">
+                            <p>
+                                Ремонт гаджетов Xiaomi производится согласно регламенту производителя — мы применяем
+                                высококачественные комплектующие, всегда имеющиеся на складе компании. Сервис оснащён
+                                профессиональным оборудованием, рекомедуемым изготовителем девайсов, позволяющим
+                                производить полноценную диагностику гаджетов и оперативно устранять имеющиеся поломки.
+                            </p>
+                            <p>
+                                В коллективе сервис-центра Xiaomi Support работают квалифицированные сервис-инженеры,
+                                способные справиться с любой задачей, будь то ремонт смартфона, планшетного
+                                ПК или устранение неисправности в другой продукции бренда.
+                            </p>
+                            <p>
+                                Ремонт техники Ксяоми производится после проведения диагностики, во процессе которой
+                                техник определит причину поломки и подсчитать стоимость восстановления гаджета. Только
+                                после согласия клиента с озвученной информацией, инженер приступает к ремонтным работам,
+                                после чего устройство тестируется и передаётся владельцу с соответствующим гарантийным
+                                документом. Срок гарантии, в зависимости от неисправности, может составлять до 3-х лет.
+                            </p>
+                        </div>
+                        <h3>
+                            Преимущества обращения в сервисный центр «Remont Xiaomi»:
+                        </h3>
+                        <ul class="check_list">
+                            <li>
+                                Наличие фирменного технического оснащения для быстрой диагностики и качественного
+                                ремонта
+                            </li>
+                            <li>
+                                На складе компании имеются все необходимые комплектующие, поэтому вам не придётся
+                                неделями ожидать поставкинужной детали
+                            </li>
+                            <li>
+                                Ремонт Remont Xiaomi выполняется по доступным ценам
+                            </li>
+                            <li>
+                                Гарантия на проделанную работу и заменённые комплектующие!
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="blog__right">
+                        <div class="form_popup_container" data-form-title-default="Бесплатная консультация"
+                            data-form-text-default="Оставьте заявку нашему специалисту и он свяжется с вами в ближайшее время!">
+                            <h3 class="color_accent form_popup_title">Бесплатная консультация</h3>
+                            <p class="color_second_dark form_popup_text">
+                                Оставьте заявку нашему специалисту и он свяжется с вами в ближайщее время!
+                            </p>
+                            <div class="form_popup__wrapper">
+                                <form class="form_popup" novalidate>
+                                    <label class="label_input">
+                                        <input type="text" name="name" autocomplete="name" required
+                                            placeholder="Ваше имя">
+                                        <div class="label_hint_hidden">Введите ваше Имя</div>
+                                    </label>
+                                    <label class="label_input">
+                                        <input type="text" name="phone" autocomplete="tel-local-prefix" required
+                                            placeholder="+7 999 999-99-99">
+                                        <div class="label_hint_hidden">Введите номер телефона</div>
+                                    </label>
+                                    <button class="btn btn_primary">Оставить заявку</button>
+                                </form>
+                                <p class="text_caption color_second_dark politic_desc">
+                                    Нажимая на кнопку «Оставить заявку» вы соглашаетесь с <a href="#">политикой
+                                        конфиденциальности</a>
+                                </p>
+                            </div>
+                            <div class="form_popup_success">
+                                <a href="#" class="btn btn_primary" data-close-modal>На главную</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stats_warranty">
+            <div class="container">
+                <div class="stats_warranty__content">
+                    <div class="stats_warranty__info">
+                        <h2>
+                            Статистика гарантийных обращений
+                        </h2>
+                        <p class="color_second_dark">
+                            По статистике число гарантийных обращений равняется всего лишь 1,9%, но иногда даже у самой
+                            надёжной техники случаются поломки. Наши штатные инженеры всегда помогут — произведут
+                            ремонтные работы в срочном порядке.
+                        </p>
+                    </div>
+                    <div class="stats_warranty__grid">
+                        <div class="stats_warranty__item">
+                            <span class="stats_warranty__item-title">
+                                210
+                            </span>
+                            <p class="color_accent">
+                                Гарантийных ремонтов проведено за год
+                            </p>
+                        </div>
+                        <div class="stats_warranty__item">
+                            <span class="stats_warranty__item-title">
+                                1 час
+                            </span>
+                            <p class="color_accent">
+                                Среднее время выездана ремонт
+                            </p>
+                        </div>
+                        <div class="stats_warranty__item">
+                            <span class="stats_warranty__item-title">
+                                1.15%
+                            </span>
+                            <p class="color_accent">
+                                Процент гарантийных случаев
+                            </p>
+                        </div>
+                        <div class="stats_warranty__item">
+                            <span class="stats_warranty__item-title">
+                                0 ₽
+                            </span>
+                            <p class="color_accent">
+                                Стоимость ремонта по гарантии
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="link_social">
+            <div class="container flex-column">
+                <h2 class="text_center">Узнайте точную стоимость вашего ремонта</h2>
+                <div class="link_social__content">
+                    <img src="./images/remont.png" alt="Ремонт" class="link_social__img">
+                    <div class="link_social__info">
+                        <p>
+                            Вы можете выбрать между оригинальной запчастью для максимальной надёжности или качественной
+                            копией для экономии. Чтобы получить полный расчёт стоимости и сделать лучший выбор, напишите
+                            нам в Telegram.
+                        </p>
+                        <a href="#" class="btn btn_primary btn_tg">Уточнить цену</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_content">
+                <div class="footer_content__row">
+                    <img src="./images/Xiaomi_logo.svg" alt="Xiaomi logo" class="footer__logo">
+                    <div class="footer_list_container">
+                        <h3>
+                            Контакты
+                        </h3>
+                        <ol class="footer__list">
+                            <li>
+                                <a href="tel:+79999999988" class="link-item link-item_tel-icon">+7 999 999-99-88</a>
+                            </li>
+                            <li>
+                                <a href="tel:+79999999988" class="link-item link-item_tel-icon">+7 999 999-99-88</a>
+                            </li>
+                            <li>
+                                <a href="mailto:service@xiaomiservis.ru"
+                                    class="link-item link-item_mail-icon">service@xiaomiservis.ru</a>
+                            </li>
+                        </ol>
+                        <p class="text_caption">
+                            Круглосуточно, без выходных
+                        </p>
+                    </div>
+                    <div class="footer_list_container">
+                        <h3>
+                            Адрес:
+                        </h3>
+                        <ol class="footer__list">
+                            <li class="link-item">
+                                г.. Москва, ул.. Николоямская 36с1
+                            </li>
+                            <li class="link-item">
+                                г.. Москва, ул.. Николоямская 36с1
+                            </li>
+                            <li class="link-item">
+                                г.. Москва, ул.. Николоямская 36с1
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="footer_list_container">
+                    <h3>
+                        Сервисный центр
+                    </h3>
+                    <ol class="footer__list">
+                        <li>
+                            <a href="#" class="link-item">О компании</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">Гарантийная политика</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">Вопросы и ответы</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">Отзывы</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">Контакты</a>
+                        </li>
+                        </ol>
+                </div>
+                <div class="footer_list_container">
+                    <h3>
+                        Услуги
+                    </h3>
+                    <ol class="footer__list">
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт телефонов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт видеорегистраторов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт мониторов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт наушников
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт отпраривателей
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт парогенераторов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт проекторов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт роботов‑пылесосов
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт роутеров
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-item">
+                                Ремонт сигвеев
+                            </a>
+                        </li>
+                        </ol>
+                </div>
+                <div class="footer_list_container">
+                    <h3>
+                        Способы оплаты
+                    </h3>
+                    <div class="pay_methods_container">
+                        <img src="./images/pay_methods/master.svg" alt="mastercard" class="pay_methods__item">
+                        <img src="./images/pay_methods/maestro.svg" alt="mastercard" class="pay_methods__item">
+                        <img src="./images/pay_methods/visa.svg" alt="mastercard" class="pay_methods__item">
+                        <img src="./images/pay_methods/sber.svg" alt="mastercard" class="pay_methods__item">
+                        <img src="./images/pay_methods/mir.svg" alt="mastercard" class="pay_methods__item">
+                        <img src="./images/pay_methods/vtb.svg" alt="mastercard" class="pay_methods__item">
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p class="text_caption">
+                    Copyright © 2026 Сервисный центр Xiaomi *Товарные знаки на сайте используется с целью описания
+                    товара, в отношении которых производятся услуги по ремонту сервисными центрами «Xiaomi Support».
+                    Услуги оказываются в неавторизованных сервисных центрах «Xiaomi Support», не связанными с компаниями
+                    Правообладателями товарных знаков и/или с её официальными представителями в отношении товаров,
+                    которые уже были введены в гражданский оборот в смысле статьи 1487 ГК РФ Правообладатель — Xiaomi
+                    Inc.
+                </p>
+                <a href="#" class="link-item color_accent">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal_overlay" data-modal-id="form">
+        <div class="modal_content">
+            <div class="form_popup_container" data-form-title-default="Бесплатная консультация"
+                data-form-text-default="Оставьте заявку нашему специалисту и он свяжется с вами в ближайшее время!">
+                <h3 class="color_accent form_popup_title">Бесплатная консультация</h3>
+                <p class="color_second_dark form_popup_text">
+                    Оставьте заявку нашему специалисту и он свяжется с вами в ближайщее время!
+                </p>
+                <div class="form_popup__wrapper">
+                    <form class="form_popup" novalidate>
+                        <label class="label_input">
+                            <input type="text" name="name" autocomplete="name" required placeholder="Ваше имя">
+                            <div class="label_hint_hidden">Введите ваше Имя</div>
+                        </label>
+                        <label class="label_input">
+                            <input type="text" name="phone" autocomplete="tel-local-prefix" required
+                                placeholder="+7 999 999-99-99">
+                            <div class="label_hint_hidden">Введите номер телефона</div>
+                        </label>
+                        <button class="btn btn_primary">Оставить заявку</button>
+                    </form>
+                    <p class="text_caption color_second_dark politic_desc">
+                        Нажимая на кнопку «Оставить заявку» вы соглашаетесь с <a href="#">политикой
+                            конфиденциальности</a>
+                    </p>
+                </div>
+                <div class="form_popup_success">
+                    <a href="#" class="btn btn_primary" data-close-modal>На главную</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./scripts/header.js"></script>
+    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/form.js"></script>
+</body>
+
+</html>
